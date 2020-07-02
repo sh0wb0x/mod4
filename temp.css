@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background: url("taqueriasign") no-repeat;
+	background: url("Pictures/mexicost.JPG")no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	
@@ -22,28 +22,31 @@ header{
 	
 }
 
-header h1 i a {
-	font-size: 55px;
+header h1{
+		font-size: 55px;
 	font-family: oxtail, serif;
 	font-weight: 800;
 	font-style: normal;	
 	text-align: center;
-	color: rgba(97,96,96,.7)
+	color: rgba(97,96,96,.7);
+	
 }
+
 nav{
 	width:100%;
 	text-align: center;
 }
 
 nav ul{
-  list-style-type: none;
-  margin: 10;
-  padding: 0;
+  list-style-type:none;
+  margin: 100;
+  padding-bottom: 50;
 	
 }
 
 nav li{
 	display:inline-block;
+	margin-top: auto;
 	
 }
 
@@ -52,6 +55,16 @@ footer{
 	text-align: center;
 	clear:both;
 	font-family:"";
+
+}
+
+table{
+	align-content: center;
+	
+}
+th, td {
+  padding: 5px;
+  padding-bottom: 100px;
 
 }
 
@@ -76,9 +89,9 @@ nav a:active {
 }
 
 .left{
-	width: 400px;
-	float:left;
-	margin-top:30px;
+	width: 310px;
+	float:right;
+	margin-top:auto;
 	margin-bottom: 30px;
 	
 }
@@ -93,8 +106,8 @@ nav a:active {
 }
 
 .side{
-	width: 400px;
+	width: 310px;
 	float: left;
 	font-family:"oxtail, seriff";
-	margin-left: auto;
+	margin-top: auto;
 }
