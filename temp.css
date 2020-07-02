@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: url("taqueriasign") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+
+
+#showbox{
+	width:900px;
+	margin:0 auto;
+}
+header{
+	style:center;
+	width:100%;
+	height: 100px;
+	
+	
+}
+
+header h1 i a {
+	font-size: 55px;
+	font-family: oxtail, serif;
+	font-weight: 800;
+	font-style: normal;	
+	text-align: center;
+	color: rgba(97,96,96,.7)
+}
+nav{
+	width:100%;
+	text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+	
+}
+
+nav li{
+	display:inline-block;
+	
+}
+
+
+footer{
+	text-align: center;
+	clear:both;
+	font-family:"";
+
+}
+
+nav a:link {
+font-family:"oxtail, serif";
+  color:rgba(104,104,104,.75);
+  text-decoration: none;
+  margin-right: 20px;
+	
+}
+
+nav a:visited {
+  
+}
+
+nav a:hover {
+  color:rgba(104,104,104,1);
+}
+
+nav a:active {
+  text-decoration: underline;
+}
+
+.left{
+	width: 400px;
+	float:left;
+	margin-top:30px;
+	margin-bottom: 30px;
+	
+}
+
+.right{
+	width: 400px; 
+	float:left;
+	margin-left: 30px;
+	margin-top:30px;
+	font-family:"oxtail, seriff";
+	font-size: 18px;
+}
+
+.side{
+	width: 400px;
+	float: left;
+	font-family:"oxtail, seriff";
+	margin-left: auto;
+}
