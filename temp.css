@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background: url("Pictures/mexicost.JPG")no-repeat;
+	background: url("Pictures/softtaco.JPG")no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	
@@ -100,7 +100,6 @@ nav a:active {
 	width: 400px; 
 	float:left;
 	margin-left: 30px;
-	margin-top:30px;
 	font-family:"oxtail, seriff";
 	font-size: 18px;
 }
